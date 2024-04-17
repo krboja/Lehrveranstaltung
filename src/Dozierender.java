@@ -13,7 +13,7 @@ public class Dozierender {
 
     // Öffentliche Methode zum Beantworten von Fragen
     public void frageBeantworten(Studenten studenten, String antwort) {
-        System.out.println(name + " antwortet " + studenten.getName() + ": " + antwort);
+        System.out.println(name + " antwortet " + studenten + ": " + antwort);
     }
 
     // Getter für den Namen

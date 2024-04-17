@@ -5,8 +5,9 @@ public class Lehrveranstaltung {
     public Lehrveranstaltung(String titel) {
         this.titel = titel;
     }
+    Dozierender dozierender = new Dozierender("Prof. Dr. Müller", "Informatik", "A123");
 
-    Dozent dozent = new Dozent("Herr Müller");
+    //Dozent dozent = new Dozent("Prof. Dr. Müller");
 
     
 
