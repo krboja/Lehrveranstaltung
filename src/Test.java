@@ -5,9 +5,8 @@ public class Test {
         Studenten student1 = new Studenten("Maria Dörfler", 123456, "Informatik");
         // Aufruf der Methode "frageStellen"
         student1.frageStellen("Was kommt alles in der Prüfung dran?");
+        student1.sprechstundenanfrag("Maria Dörfler", 123456, "Informatik", 19, 04, 2024, 14);	
         
         
-        // Aufruf der Methode "sprechStundenAnfrage"
-        student1.sprechStundenAnfrage("Montag", 12, 14);
     }
 }
