@@ -12,12 +12,15 @@ public class Dozierender {
     }
 
     // Öffentliche Methode zum Beantworten von Fragen
-    public void frageBeantworten(Studierender studierender, String antwort) {
-        System.out.println(name + " antwortet " + studierender.getName() + ": " + antwort);
+    public void frageBeantworten(Studenten studenten, String antwort) {
+        System.out.println(name + " antwortet " + studenten.getName() + ": " + antwort);
     }
 
     // Getter für den Namen
     public String getName() {
         return name;
+    }
+    public void feedbackVonStudenten(Studenten studenten, String feedback) {
+        System.out.println(name + " erhält Feedback von " + studenten.getName() + ": " + feedback);
     }
 }
