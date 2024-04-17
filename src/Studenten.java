@@ -13,7 +13,21 @@ public class Studenten {
 
     // Öffentliche Methode zum Fragenstellen
     public void frageStellen(String frage) {
-        System.out.println(name + " :"+ frage);
+        System.out.println(name + matrikelnummer + " :"+ frage);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getMatrikelnummer() {
+        return matrikelnummer;
+    }
+
+    public String getStudiengang() {
+        return studiengang;
+    }
+
+
 }
 
