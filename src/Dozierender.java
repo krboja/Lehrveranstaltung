@@ -20,6 +20,17 @@ public class Dozierender {
     public String getName() {
         return name;
     }
+
+    // Getter für die Fakultät
+    public String getFakultaet() {
+        return fakultaet;
+    }
+
+    // Getter für die Büronummer
+    public String getBueronummer() {
+        return bueronummer;
+    }
+    
     public void feedbackVonStudenten(Studenten studenten, String feedback) {
         System.out.println(name + " erhält Feedback von " + studenten.getName() + ": " + feedback);
     }
